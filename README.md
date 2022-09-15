@@ -18,7 +18,9 @@
 ```
 to [pom.xml](pom.xml)
 
-## Make a request mapping for the url /omikuji to render the main page showing the Omikuji form.
+## Tasks 
+
+Make a request mapping for the url /omikuji to render the main page showing the Omikuji form.
 
 Render the form as shown in the wireframe.
 
