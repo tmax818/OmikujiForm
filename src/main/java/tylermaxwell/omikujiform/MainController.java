@@ -9,19 +9,31 @@ import org.springframework.web.bind.annotation.RequestParam;
  * import the @Controller annotation
  */
 @Controller
+@RequestMapping("/omikuji")
 public class MainController {
 
-    @RequestMapping("/")
+    @RequestMapping("")
     public String index() {
         return "index.jsp";
     }
 
-    @RequestMapping("/login")
+    @RequestMapping("/show")
     public String login(
-            @RequestParam(value="email") String email,
-            @RequestParam(value="password") String password, Model model) {
-        model.addAttribute("email", email);
-        System.out.println(password);
+            @RequestParam(value="number") String number,
+            @RequestParam(value="city") String city,
+            @RequestParam(value="person") String person,
+            @RequestParam(value="hobby") String hobby,
+            @RequestParam(value="organism") String organism,
+            @RequestParam(value="nice") String nice,
+            Model model) {
+            model.addAttribute("number", number);
+            model.addAttribute("city", city);
+            model.addAttribute("person", person);
+            model.addAttribute("hobby", hobby);
+            model.addAttribute("organism", organism);
+            model.addAttribute("nice", nice);
+
+
 
         return "results.jsp";
     }
