@@ -1,23 +1,5 @@
 # Omikuji Form
 
-- create [HomeController](src/main/java/tylermaxwell/omikujiform/HomeController.java)
-- create [index.jsp](src/main/webapp/WEB-INF/index.jsp)
-- add `spring.mvc.view.prefix=/WEB-INF/` to [application.properties](src/main/resources/application.properties)
-- add:
-```xml
-<dependencies>
-<dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-jasper</artifactId>
-        </dependency>
-		<dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>jstl</artifactId>
-        </dependency>
-</dependencies>
-
-```
-to [pom.xml](pom.xml)
 
 ## Tasks 
 
