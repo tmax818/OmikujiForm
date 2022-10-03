@@ -13,7 +13,7 @@
 <h1>Here's Your Omikuji</h1>
 
     <p>
-    In <c:out value="${number}"/>, you will live in <c:out value="${city}"/> with <c:out value="${person}"/> as your roommate, selling <c:out value="${hobby}"/>  for a living. The next time you see a <c:out value="${organism}"/> ,you will have good luck. Also,<c:out value="${nice}"/> .
+    In <c:out value="${number}"/> years, you will live in <c:out value="${city}"/> with <c:out value="${person}"/> as your roommate, selling <c:out value="${hobby}"/>  for a living. The next time you see a <c:out value="${organism}"/> ,you will have good luck. Also,<c:out value="${nice}"/>.
     </p>
 </body>
 </html>
