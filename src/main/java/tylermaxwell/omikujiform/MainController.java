@@ -32,9 +32,6 @@ public class MainController {
             model.addAttribute("hobby", hobby);
             model.addAttribute("organism", organism);
             model.addAttribute("nice", nice);
-
-
-
         return "results.jsp";
     }
 

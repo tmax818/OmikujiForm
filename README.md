@@ -1,6 +1,8 @@
 # Omikuji Form
 
-- create [HomeController](src/main/java/tylermaxwell/omikujiform/HomeController.java)
+## Solution Branch
+
+- create [MainController](src/main/java/tylermaxwell/omikujiform/MainController.java)
 - create [index.jsp](src/main/webapp/WEB-INF/index.jsp)
 - add `spring.mvc.view.prefix=/WEB-INF/` to [application.properties](src/main/resources/application.properties)
 - add:
